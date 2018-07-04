@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Search gif",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
   "devDependencies": {
     "http-server": "^0.11.1"
   },

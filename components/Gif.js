@@ -11,7 +11,6 @@ Gif = React.createClass ({
     
     render: function () {
         const url = this.props.loading ? GIPHY_LOADING_URL : this.props.url;
-        
         return (
             <div style={styles}>
                 <a href={this.getUrl()} title='view this on giphy' target='new'>
